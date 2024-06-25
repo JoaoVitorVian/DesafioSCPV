@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>_5___Core</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\2 - Application\SCPV.ApplicationServices.csproj" />
+    <ProjectReference Include="..\3 - Domain\SCPV.Domain.csproj" />
+    <ProjectReference Include="..\4 - Infra\SCPV.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
